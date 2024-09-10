@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     screens : {
       "sm" : "576px",
@@ -14,7 +15,6 @@ module.exports = {
       center: true,
       padding: "0.75rem"
     },
-    
     extend: {
       fontFamily : {
         "Dana-reg" : "Dana Reg",
@@ -25,12 +25,20 @@ module.exports = {
   },
 
   plugins: [
+    function({ addVariant }) {
+      addVariant("child", "& > *")
+      addVariant("child-hover", "& > *:hover")
+    },
     function ({ addComponents }) {
       addComponents({
         '.container-fluid': {
             width: '100%',
             paddingLeft: "1.5rem",
             paddingRight: "1.5rem",
+          '@screen sm': {
+            paddingLeft: "2.3rem",
+            paddingRight: "2.3rem"
+          },
           '@screen lg': {
             paddingLeft: "1.875rem",
             paddingRight: "1.875rem"
