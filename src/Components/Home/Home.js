@@ -4,7 +4,7 @@ function Home() {
    return (
       <section
          id="home"
-         className="container-fluid py-[50px] md:py-[80px] lg:py-[100px] flex flex-col gap-y-8 lg:flex-row items-start justify-between"
+         className="container-fluid py-[50px] md:py-[80px] lg:py-[100px] flex flex-col gap-y-8 lg:flex-row items-start justify-between dark:text-zinc-800"
       >
          <div className="lg:max-w-[50%] lg:pt-6 2xl:pt-16">
             <h6 className="text-sm lg:text-base lg:font-Dana-med mb-4 text-emerald-500 ">

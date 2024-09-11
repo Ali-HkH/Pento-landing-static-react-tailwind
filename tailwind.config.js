@@ -16,6 +16,11 @@ module.exports = {
       padding: "0.75rem"
     },
     extend: {
+      colors: {
+        about: {
+          DEFAULT: "rgb(13, 24, 32)"
+        }
+      },
       fontFamily : {
         "Dana-reg" : "Dana Reg",
         "Dana-med" : "Dana Med",
