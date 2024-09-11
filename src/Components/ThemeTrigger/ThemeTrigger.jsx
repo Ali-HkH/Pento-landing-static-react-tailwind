@@ -40,7 +40,7 @@ function ThemeTrigger() {
       <div className="fixed bottom-14 left-20">
          <div className="w-14 h-8 flex items-center bg-emerald-500 rounded-full p-1">
             <div
-               className="transition-all duration-300"
+               className="transition-all duration-300 cursor-pointer"
                ref={sliderRef}
                onClick={changeTheme}
             >

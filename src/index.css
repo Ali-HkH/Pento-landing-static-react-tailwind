@@ -18,7 +18,9 @@
       src: url("/public/fonts/Dana/DanaFaNum-DemiBold.woff2") format("woff2");
       font-display: swap;
    }
-
+   html {
+      scroll-behavior: smooth;
+   }
    body {
       @apply font-Dana-reg bg-slate-100 dark:bg-zinc-900 text-zinc-800 dark:text-white;
    }
