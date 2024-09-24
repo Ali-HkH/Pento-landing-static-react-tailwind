@@ -22,7 +22,7 @@
       scroll-behavior: smooth;
    }
    body {
-      @apply font-Dana-reg bg-slate-100 dark:bg-zinc-900 text-zinc-800 dark:text-white;
+      @apply font-Dana-reg bg-white dark:bg-black text-zinc-800 dark:text-white;
    }
 }
 

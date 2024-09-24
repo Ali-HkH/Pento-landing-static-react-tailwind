@@ -19,6 +19,9 @@ module.exports = {
       colors: {
         about: {
           DEFAULT: "rgb(13, 24, 32)"
+        },
+        offer: {
+          DEFAULT: "#F5F7FB"
         }
       },
       fontFamily : {
