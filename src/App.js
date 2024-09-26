@@ -4,6 +4,7 @@ import ThemeTrigger from "./Components/ThemeTrigger/ThemeTrigger";
 import About from "./Components/About/About";
 import Offer from "./Components/Offer/Offer";
 import Quote from "./Components/Quote/Quote";
+import Team from "./Components/Team/Team";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Offer />
       <Quote />
+      <Team />
     </div>
   );
 }
