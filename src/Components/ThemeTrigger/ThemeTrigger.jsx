@@ -37,7 +37,7 @@ function ThemeTrigger() {
    };
 
    return (
-      <div className="fixed bottom-14 left-20 z-50">
+      <div className="fixed bottom-14 left-24 z-50">
          <div className="w-14 h-8 flex items-center bg-emerald-500 rounded-full p-1">
             <div
                className="transition-all duration-300 cursor-pointer"

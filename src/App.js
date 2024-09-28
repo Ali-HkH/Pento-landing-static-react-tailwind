@@ -7,11 +7,13 @@ import Quote from "./Components/Quote/Quote";
 import Team from "./Components/Team/Team";
 import Process from "./Components/Process/Process";
 import FunFact from "./Components/FunFact/FunFact";
+import ToTop from "./Components/ToTop/ToTop";
 
 function App() {
   return (
     <div className="App">
       <ThemeTrigger />
+      <ToTop />
       <Nav/>
       <Home />
       <About/>
