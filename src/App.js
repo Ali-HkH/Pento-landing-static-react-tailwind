@@ -5,10 +5,11 @@ import About from "./Components/About/About";
 import Offer from "./Components/Offer/Offer";
 import Quote from "./Components/Quote/Quote";
 import Team from "./Components/Team/Team";
+import Process from "./Process/Process";
 
 function App() {
   return (
-    <div className="App h-[5000px]">
+    <div className="App">
       <ThemeTrigger />
       <Nav/>
       <Home />
@@ -16,6 +17,7 @@ function App() {
       <Offer />
       <Quote />
       <Team />
+      <Process />
     </div>
   );
 }

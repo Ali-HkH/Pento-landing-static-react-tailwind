@@ -46,4 +46,10 @@
       background-position: center;
       background-repeat: no-repeat;
    }
+   #process {
+      background-image: url("/public/imgs/process-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
 }
