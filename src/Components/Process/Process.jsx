@@ -1,6 +1,6 @@
 import React from "react";
-import SectionHeading from "../Components/SectionHeading/SectionHeading";
-import ProcessItem from "../Components/ProcessItem/ProcessItem";
+import SectionHeading from "../SectionHeading/SectionHeading";
+import ProcessItem from "../ProcessItem/ProcessItem";
 
 function Process() {
    return (
