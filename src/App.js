@@ -9,6 +9,7 @@ import Process from "./Components/Process/Process";
 import FunFact from "./Components/FunFact/FunFact";
 import ToTop from "./Components/ToTop/ToTop";
 import FAQ from "./Components/FAQ/FAQ";
+import Loan from "./Components/Loan/Loan";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Process />
       <FunFact />
       <FAQ />
+      <Loan />
     </div>
   );
 }

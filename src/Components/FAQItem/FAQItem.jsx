@@ -23,7 +23,7 @@ function FAQItem({ title, number, openedFAQ, setOpenedFAQ }) {
             role="button"
             onClick={() => accordionClickHandler(number)}
          >
-            <p className="text-lg font-Dana-bold transition-colors">{title}</p>
+            <p className="text-lg font-Dana-bold">{title}</p>
             <div
                className={`${
                   number === openedFAQ && isFAQExpand

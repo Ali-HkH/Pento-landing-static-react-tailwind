@@ -26,11 +26,11 @@ function About() {
                     {/* about navtab */}
                     <div className='mt-6'>
                         <div className='my-0 flex border-b border-gray-400'>
-                            <span href='#' className={`${isAbout1 && "border-b-2 border-emerald-600"} w-24 flex-center pb-5 hover:border-b-[3px] hover:border-emerald-600 cursor-pointer transition-all`} 
+                            <span className={`${isAbout1 && "border-b-2 border-emerald-600"} w-24 flex-center pb-5 hover:border-b-[3px] hover:border-emerald-600 cursor-pointer transition-all`} 
                             onClick={() => setIsAbout1(true)}
                             >ماموریت ما
                             </span>
-                            <span href='#' className={`${!isAbout1 && "border-b-2 border-emerald-600"} w-24 flex-center pb-5 hover:border-b-[3px] hover:border-emerald-600 cursor-pointer transition-all`} 
+                            <span className={`${!isAbout1 && "border-b-2 border-emerald-600"} w-24 flex-center pb-5 hover:border-b-[3px] hover:border-emerald-600 cursor-pointer transition-all`} 
                             onClick={() => setIsAbout1(false)}
                             >دیدگاه ما
                             </span>
