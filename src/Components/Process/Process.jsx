@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import ProcessItem from "../ProcessItem/ProcessItem";
 
 function Process() {
-   const [openedProcess, setOpenedProcess] = useState(1);
+   const [openedProcess, setOpenedProcess] = useState(null);
 
    return (
       <div id="process">

@@ -8,6 +8,7 @@ import Team from "./Components/Team/Team";
 import Process from "./Components/Process/Process";
 import FunFact from "./Components/FunFact/FunFact";
 import ToTop from "./Components/ToTop/ToTop";
+import FAQ from "./Components/FAQ/FAQ";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Team />
       <Process />
       <FunFact />
+      <FAQ />
     </div>
   );
 }
