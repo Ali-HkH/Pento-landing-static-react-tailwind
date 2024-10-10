@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function ProcessItem({ text, number, openedProcess, setOpenedProcess }) {
    const [isProcessExpand, setIsProcessExpand] = useState(false);
@@ -14,8 +14,8 @@ function ProcessItem({ text, number, openedProcess, setOpenedProcess }) {
 
    return (
       <div
-         className={`border-r border-r-emerald-500 ${
-            !isProcessExpand && "last:border-none"
+         className={`border-r-2 border-r-emerald-500 ${
+            (number !== openedProcess || !isProcessExpand) && "last:border-none"
          }`}
       >
          <button
@@ -34,7 +34,7 @@ function ProcessItem({ text, number, openedProcess, setOpenedProcess }) {
                number === openedProcess && isProcessExpand
                   ? "max-h-[190px] opacity-100 "
                   : "max-h-0 opacity-0 "
-            }  lg:w-[376px] xl:w-[476px] 2xl:w-[576px] overflow-hidden pr-10 pb-5 text-[15px] font-Dana-med transition-all duration-300`}
+            }  lg:w-[376px] xl:w-[476px] 2xl:w-[576px] overflow-y-hidden pr-10 pb-5 text-[15px] font-Dana-med transition-all duration-300`}
          >
             <p className="mb-2.5">
                لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم

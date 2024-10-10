@@ -10,6 +10,7 @@ import FunFact from "./Components/FunFact/FunFact";
 import ToTop from "./Components/ToTop/ToTop";
 import FAQ from "./Components/FAQ/FAQ";
 import Loan from "./Components/Loan/Loan";
+import Testomonials from "./Components/Testomonials/Testomonials";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <FunFact />
       <FAQ />
       <Loan />
+      <Testomonials />
     </div>
   );
 }

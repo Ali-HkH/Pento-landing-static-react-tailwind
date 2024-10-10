@@ -13,7 +13,7 @@ function Process() {
                subTitle="مرحله و فرآیند ما"
                center={true}
             />
-            <div className="flex flex-col items-start gap-y-5 lg:flex-row lg:items-center lg:gap-x-5">
+            <div className="flex flex-col items-start gap-y-5 lg:flex-row justify-start lg:items-center lg:gap-x-5">
                <div className="px-3">
                   <ProcessItem
                      text="ارزیابی"

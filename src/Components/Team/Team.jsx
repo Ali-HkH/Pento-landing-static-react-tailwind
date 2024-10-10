@@ -48,7 +48,6 @@ function Team() {
                   }
                }}
                modules={[Pagination]}
-               className="mySwiper"
                style={{
                   "--swiper-pagination-color": "#10b981",
                   "--swiper-pagination-bullet-inactive-color": "#999999",
@@ -56,6 +55,7 @@ function Team() {
                   "--swiper-pagination-bullet-size": "12px",
                   "--swiper-pagination-bullet-horizontal-gap": "8px",
                }}
+               className="mySwiper"
             >
                <SwiperSlide>
                   <TeamBox
