@@ -42,7 +42,7 @@ function Nav() {
                <a href="#offer">خدمات ما</a>
                <a href="#team">تیم ما</a>
                <a href="#">وبلاگ</a>
-               <a href="#">تماس با ما</a>
+               <a href="#contact">تماس با ما</a>
             </div>
             {/* border */}
             <span className="md:hidden w-36 h-[2px] bg-emerald-500"></span>

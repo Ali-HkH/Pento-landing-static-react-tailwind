@@ -11,6 +11,7 @@ import ToTop from "./Components/ToTop/ToTop";
 import FAQ from "./Components/FAQ/FAQ";
 import Loan from "./Components/Loan/Loan";
 import Testomonials from "./Components/Testomonials/Testomonials";
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <FAQ />
       <Loan />
       <Testomonials />
+      <ContactUs />
     </div>
   );
 }
