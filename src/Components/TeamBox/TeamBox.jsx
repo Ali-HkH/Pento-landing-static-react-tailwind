@@ -5,7 +5,7 @@ function TeamBox({ name, job, img }) {
       <div className="group text-center">
          <div className="relative rounded-2xl overflow-hidden mb-[30px] child:transition-all child:duration-300">
             <img className="group-hover:scale-110" src={img} alt="team" />
-            <div className="opacity-0 invisible absolute bottom-0 right-0 group-hover:opacity-100 group-hover:visible group-hover:bottom-10 flex gap-x-1.5 bg-emerald-500 p-5 rounded-e-xl child:size-7 child:p-2 child:rounded-full child:bg-white child:text-emerald-500 child:cursor-pointer">
+            <div className="opacity-0 invisible absolute bottom-0 right-0 group-hover:opacity-100 group-hover:visible group-hover:bottom-10 flex gap-x-1.5 bg-emerald-500 p-[22px] rounded-e-xl child:size-8 child:p-2 child:rounded-full child:bg-white child:text-emerald-500 child:cursor-pointer">
                <svg className="hover:bg-black hover:text-white hover:-translate-y-[1px] transition-all duration-300">
                   <use href="#facebook"></use>
                </svg>

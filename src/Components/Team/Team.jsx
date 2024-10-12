@@ -8,7 +8,10 @@ import "swiper/css/pagination";
 
 function Team() {
    return (
-      <div id="team" className="container py-[50px] md:py-[70px] lg:py-[100px]">
+      <div
+         id="team"
+         className="container py-[50px] md:py-[70px] md:px-[40px] lg:py-[100px] lg:px-[80px]"
+      >
          <SectionHeading
             title="کارکنان با تجربه ما"
             subTitle="تیم ما"

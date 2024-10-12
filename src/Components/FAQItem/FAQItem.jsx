@@ -45,9 +45,9 @@ function FAQItem({ title, number, openedFAQ, setOpenedFAQ }) {
          <div
             className={`${
                number === openedFAQ && isFAQExpand
-                  ? "max-h-[460px] opacity-100"
+                  ? "max-h-[460px] opacity-100 p-5 pl-4"
                   : "max-h-0 opacity-0 p-0"
-            } bg-transparent p-5 pl-4 overflow-hidden transition-all duration-300`}
+            } bg-transparent overflow-hidden transition-all duration-300`}
          >
             لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم
             به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار
