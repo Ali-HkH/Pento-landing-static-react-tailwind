@@ -52,4 +52,10 @@
       background-position: center;
       background-repeat: no-repeat;
    }
+   #subscribe {
+      background-image: url("/public/imgs/subscribe-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
 }

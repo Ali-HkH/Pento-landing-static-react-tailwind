@@ -41,7 +41,7 @@ function Nav() {
                <a href="#about">درباره ما</a>
                <a href="#offer">خدمات ما</a>
                <a href="#team">تیم ما</a>
-               <a href="#">وبلاگ</a>
+               <a href="#weblog">وبلاگ</a>
                <a href="#contact">تماس با ما</a>
             </div>
             {/* border */}

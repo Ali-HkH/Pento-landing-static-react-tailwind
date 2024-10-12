@@ -8,7 +8,10 @@ import "swiper/css/pagination";
 
 function Weblog() {
    return (
-      <div className="container py-[50px] md:py-[70px] lg:py-[100px]">
+      <div
+         id="weblog"
+         className="container py-[50px] md:py-[70px] lg:py-[100px]"
+      >
          <SectionHeading
             title="اخبار ویژه و وبلاگ"
             subTitle="اخبار و وبلاگ"
