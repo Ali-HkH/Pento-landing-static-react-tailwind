@@ -12,6 +12,7 @@ import FAQ from "./Components/FAQ/FAQ";
 import Loan from "./Components/Loan/Loan";
 import Testomonials from "./Components/Testomonials/Testomonials";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import Weblog from "./Components/Weblog/Weblog";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Loan />
       <Testomonials />
       <ContactUs />
+      <Weblog />
     </div>
   );
 }
