@@ -14,6 +14,7 @@ import Testomonials from "./Components/Testomonials/Testomonials";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Weblog from "./Components/Weblog/Weblog";
 import Subscribe from "./Components/Subscribe/Subscribe";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <ContactUs />
       <Weblog />
       <Subscribe />
+      <Footer />
     </div>
   );
 }

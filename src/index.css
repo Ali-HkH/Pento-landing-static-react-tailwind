@@ -24,6 +24,9 @@
    body {
       @apply overflow-x-hidden font-Dana-reg bg-white dark:bg-black text-zinc-800 dark:text-white;
    }
+   ul {
+      list-style-type: none;
+   }
 }
 
 @layer utilities {
