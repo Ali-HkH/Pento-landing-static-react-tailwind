@@ -138,8 +138,13 @@ function Footer() {
             <div className="w-full mt-[30px] lg:mt-[70px] py-8 flex flex-col md:flex-row items-center justify-between gap-x-14 border-t border-gray-400/40">
                <p>
                   کپی رایت © 1402 پنتو. تمام حقوق قالب محفوظ است. طراحی{" "}
-                  <span className="text-emerald-500">Barat Hadian</span> و توسعه
-                  توسط <span className="text-emerald-500">Ali HkH</span>
+                  <span className="text-emerald-500 cursor-pointer">
+                     Barat Hadian
+                  </span>{" "}
+                  و توسعه توسط{" "}
+                  <span className="text-emerald-500 cursor-pointer">
+                     Ali HkH
+                  </span>
                </p>
                <div className="flex gap-x-1.5 lg:gap-x-2.5 mt-2.5">
                   <PaymentCard img="./imgs/payment/visa.jpg" />

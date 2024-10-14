@@ -67,10 +67,10 @@ function ContactUs() {
                      پیام
                   </label>
                   <textarea
-                     className="h-[110px] px-5 py-3.5 appearance-none focus:outline-none rounded-md text-zinc-800"
+                     className="min-h-[110px] px-5 py-3.5 appearance-none focus:outline-none rounded-md text-zinc-800"
                      name="desc"
-                     rows={8}
-                     cols={30}
+                     rows={7}
+                     cols={28}
                      id="desc"
                      placeholder="پیام شما"
                   ></textarea>
