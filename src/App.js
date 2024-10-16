@@ -15,29 +15,46 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Weblog from "./Components/Weblog/Weblog";
 import Subscribe from "./Components/Subscribe/Subscribe";
 import Footer from "./Components/Footer/Footer";
+import { useEffect, useState } from "react";
+import Loader from "./Components/Loader/Loader";
 
 function App() {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000)
+  }, [])
+
   return (
     <div className="App">
-      <ThemeTrigger />
-      <ToTop />
-      <Nav/>
-      <Home />
-      <About/>
-      <Offer />
-      <Quote />
-      <Team />
-      <Process />
-      <FunFact />
-      <FAQ />
-      <Loan />
-      <Testomonials />
-      <ContactUs />
-      <Weblog />
-      <Subscribe />
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <ThemeTrigger />
+          <ToTop />
+          <Nav/>
+          <Home />
+          <About/>
+          <Offer />
+          <Quote />
+          <Team />
+          <Process />
+          <FunFact />
+          <FAQ />
+          <Loan />
+          <Testomonials />
+          <ContactUs />
+          <Weblog />
+          <Subscribe />
+          <Footer />
+        </>
+      )}
+      
     </div>
   );
+
 }
 
 export default App;
