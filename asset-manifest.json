@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a81f8036.css",
-    "main.js": "/static/js/main.fcd5f32b.js",
-    "static/media/process-bg.jpg": "/static/media/process-bg.4844b58b6a66777ba545.jpg",
-    "static/media/home-bg.jpg": "/static/media/home-bg.6c3699806c13b0464445.jpg",
-    "static/media/subscribe-bg.jpg": "/static/media/subscribe-bg.73d0ffb3762ddeb95482.jpg",
-    "static/media/DanaFaNum-DemiBold.woff2": "/static/media/DanaFaNum-DemiBold.606ee4ede1f9de62b0bc.woff2",
-    "static/media/DanaFaNum-Regular.woff2": "/static/media/DanaFaNum-Regular.cd89c4bbb5d68d78d5fd.woff2",
-    "static/media/DanaFaNum-Medium.woff2": "/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
-    "index.html": "/index.html",
-    "main.a81f8036.css.map": "/static/css/main.a81f8036.css.map",
-    "main.fcd5f32b.js.map": "/static/js/main.fcd5f32b.js.map"
+    "main.css": "/Pendo-landing-static-react-tailwind/static/css/main.0a6f22fd.css",
+    "main.js": "/Pendo-landing-static-react-tailwind/static/js/main.fcd5f32b.js",
+    "static/media/process-bg.jpg": "/Pendo-landing-static-react-tailwind/static/media/process-bg.4844b58b6a66777ba545.jpg",
+    "static/media/home-bg.jpg": "/Pendo-landing-static-react-tailwind/static/media/home-bg.6c3699806c13b0464445.jpg",
+    "static/media/subscribe-bg.jpg": "/Pendo-landing-static-react-tailwind/static/media/subscribe-bg.73d0ffb3762ddeb95482.jpg",
+    "static/media/DanaFaNum-DemiBold.woff2": "/Pendo-landing-static-react-tailwind/static/media/DanaFaNum-DemiBold.606ee4ede1f9de62b0bc.woff2",
+    "static/media/DanaFaNum-Regular.woff2": "/Pendo-landing-static-react-tailwind/static/media/DanaFaNum-Regular.cd89c4bbb5d68d78d5fd.woff2",
+    "static/media/DanaFaNum-Medium.woff2": "/Pendo-landing-static-react-tailwind/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
+    "index.html": "/Pendo-landing-static-react-tailwind/index.html",
+    "main.0a6f22fd.css.map": "/Pendo-landing-static-react-tailwind/static/css/main.0a6f22fd.css.map",
+    "main.fcd5f32b.js.map": "/Pendo-landing-static-react-tailwind/static/js/main.fcd5f32b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81f8036.css",
+    "static/css/main.0a6f22fd.css",
     "static/js/main.fcd5f32b.js"
   ]
 }
