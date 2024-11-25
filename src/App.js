@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Nav from "./Components/Nav/Nav";
 import Home from "./Components/Home/Home";
 import ThemeTrigger from "./Components/ThemeTrigger/ThemeTrigger";
@@ -15,7 +16,6 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Weblog from "./Components/Weblog/Weblog";
 import Subscribe from "./Components/Subscribe/Subscribe";
 import Footer from "./Components/Footer/Footer";
-import { useEffect, useState } from "react";
 import Loader from "./Components/Loader/Loader";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3000)
+    setTimeout(() => setLoading(false), 2000)
   }, [])
 
   return (

@@ -2,11 +2,9 @@ import React, { useRef, useState } from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-
-// Import Swiper styles
+import LoanBox from "../LoanBox/LoanBox";
 import "swiper/css";
 import "swiper/css/navigation";
-import LoanBox from "../LoanBox/LoanBox";
 
 function Loan() {
    const [loanCategory, setLoanCategory] = useState("buy");
