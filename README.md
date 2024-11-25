@@ -1,9 +1,10 @@
-# Pento-landing
+ # [Pento Landing Site](https://ali-hkh.github.io/Pento-landing-static-react-tailwind/)
+ 
 Landing page with react and tailwind
 
 The design inspired from pento-landing in rastchin web template shop, but I developed it from what I have learned in my own way.
 **************
-About this demo:
+### About this demo:
 
 -Has Loading screen before the site loads 
 
@@ -14,5 +15,5 @@ About this demo:
 -Has custom responsive swiper elements
 
 -Also the site itself is full responsive
-***************
-[to Pento landing](https://ali-hkh.github.io/Pento-landing-static-react-tailwind/)
+
+
