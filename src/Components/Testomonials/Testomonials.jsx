@@ -15,7 +15,7 @@ function Testomonials() {
          <div className=" container pb-[50px] md:pb-[70px] lg:pb-[100px]">
             <div className="flex flex-col items-start gap-y-9 md:flex-row xl:items-center">
                <div>
-                  <img className="w-[85%]" src="/imgs/testimonials-img.png" />
+                  <img className="w-[85%]" src="./imgs/testimonials-img.png" />
                </div>
                <div className=" w-10/12 md:pr-2 md:w-1/2">
                   <SectionHeading
