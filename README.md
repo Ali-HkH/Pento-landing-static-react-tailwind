@@ -1,4 +1,4 @@
-# Pendo-landing
+# Pento-landing
 Landing page with react and tailwind
 
 The design inspired from pento-landing in rastchin web template shop, but I developed it from what I have learned in my own way.
