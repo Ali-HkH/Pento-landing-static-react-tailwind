@@ -9,7 +9,7 @@ function Footer() {
             <div className="w-full flex flex-wrap lg:flex-nowrap justify-between">
                <div className="mb-6 sm:max-w-[280px] 2xl:max-w-[350px] pl-5">
                   <div className="w-[180px] aspect-auto mb-8">
-                     <img src="./imgs/logo-white.png" alt="logo" />
+                     <img src={`${process.env.PUBLIC_URL}/imgs/logo-white.png`} alt="logo" />
                   </div>
                   <p className="mb-5">
                      لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد و
@@ -147,12 +147,12 @@ function Footer() {
                   </span>
                </p>
                <div className="flex gap-x-1.5 lg:gap-x-2.5 mt-2.5">
-                  <PaymentCard img="./imgs/payment/visa.jpg" />
-                  <PaymentCard img="./imgs/payment/master-card.jpg" />
-                  <PaymentCard img="./imgs/payment/paypal.jpg" />
-                  <PaymentCard img="./imgs/payment/skrill.jpg" />
-                  <PaymentCard img="./imgs/payment/master-card2.jpg" />
-                  <PaymentCard img="./imgs/payment/visa2.jpg" />
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/visa.jpg`}/>
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/master-card.jpg`} />
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/paypal.jpg`}/>
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/skrill.jpg`}/>
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/master-card2.jpg`}/> 
+                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/visa2.jpg`}/>
                </div>
             </div>
          </div>

@@ -10,12 +10,12 @@ function Testomonials() {
    return (
       <div className="relative">
          <div className="absolute left-0 top-0 -z-0">
-            <img src="./imgs/shape-testomonials.png" alt="shape" />
+            <img src={`${process.env.PUBLIC_URL}/imgs/shape-testomonials.png`} alt="shape" />
          </div>
          <div className=" container pb-[50px] md:pb-[70px] lg:pb-[100px]">
             <div className="flex flex-col items-start gap-y-9 md:flex-row xl:items-center">
                <div>
-                  <img className="w-[85%]" src="./imgs/testimonials-img.png" />
+                  <img className="w-[85%]" src={`${process.env.PUBLIC_URL}/imgs/testimonials-img.png`} />
                </div>
                <div className=" w-10/12 md:pr-2 md:w-1/2">
                   <SectionHeading

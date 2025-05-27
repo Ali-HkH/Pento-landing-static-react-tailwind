@@ -36,7 +36,7 @@ function Home() {
             </div>
          </div>
          <div className="max-w-[490px] md:max-w-[672px] lg:max-w-auto">
-            <img src="./imgs/home-pic.png" alt="home-pic" />
+            <img src={`${process.env.PUBLIC_URL}/imgs/home-pic.png`} alt="home-pic" />
          </div>
       </section>
    );

@@ -64,56 +64,56 @@ function Team() {
                   <TeamBox
                      name="مارک مولر"
                      job="طراح رابط کاربری"
-                     img="./imgs/team/team-1.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-1.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="جان اسمیت"
                      job="طراح وب"
-                     img="./imgs/team/team-2.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-2.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="آدام استون"
                      job="توسعه دهنده فرانت اند"
-                     img="./imgs/team/team-3.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-3.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="جک مارتینز"
                      job="توسعه دهنده بک اند"
-                     img="./imgs/team/team-4.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-4.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="مارک مولر"
                      job="طراح رابط کاربری"
-                     img="./imgs/team/team-1.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-1.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="جان اسمیت"
                      job="طراح وب"
-                     img="./imgs/team/team-2.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-2.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="آدام استون"
                      job="توسعه دهنده فرانت اند"
-                     img="./imgs/team/team-3.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-3.jpg`}
                   />
                </SwiperSlide>
                <SwiperSlide>
                   <TeamBox
                      name="جک مارتینز"
                      job="توسعه دهنده بک اند"
-                     img="./imgs/team/team-4.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-4.jpg`}
                   />
                </SwiperSlide>
             </Swiper>

@@ -59,7 +59,7 @@ function Weblog() {
             >
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-1.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-1.jpg`}
                      name="مارک مولر"
                      date="21 دی 1401"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -67,7 +67,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-2.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-2.jpg`}
                      name="جان اسمیت"
                      date="10 تیر 1401"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -75,7 +75,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-3.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-3.jpg`}
                      name="آدام استون"
                      date="18 فروردین 1402"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -83,7 +83,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-4.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-4.jpg`}
                      name="جک مارتینز"
                      date="5 آبان 1402"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -91,7 +91,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-1.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-1.jpg`}
                      name="مارک مولر"
                      date="21 دی 1401"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -99,7 +99,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-2.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-2.jpg`}
                      name="جان اسمیت"
                      date="10 تیر 1401"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -107,7 +107,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-3.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-3.jpg`}
                      name="آدام استون"
                      date="18 فروردین 1402"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"
@@ -115,7 +115,7 @@ function Weblog() {
                </SwiperSlide>
                <SwiperSlide>
                   <WeblogBox
-                     img="./imgs/team/team-4.jpg"
+                     img={`${process.env.PUBLIC_URL}/imgs/team/team-4.jpg`}
                      name="جک مارتینز"
                      date="5 آبان 1402"
                      title="وام مسکن شما به چه معناست و 5 راه برای بهبود عملکرد"

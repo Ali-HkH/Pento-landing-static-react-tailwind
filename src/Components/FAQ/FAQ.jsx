@@ -9,7 +9,7 @@ function FAQ() {
       <div className="bg-about py-[50px] md:py-[70px] lg:py-[100px]">
          <div className="container-fluid flex flex-col justify-start gap-y-8 lg:flex-row lg:items-center">
             <div className="px-3 w-full lg:w-[80%] xl:w-[60%]">
-               <img src="./imgs/faq-img.png" alt="FAQ-img" />
+               <img src={`${process.env.PUBLIC_URL}/imgs/faq-img.png`} alt="FAQ-img" />
             </div>
             <div className="px-3 text-white">
                <SectionHeading

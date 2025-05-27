@@ -12,7 +12,7 @@ function About() {
             <div className='flex flex-col lg:flex-row lg:items-center lg:justify-center'>
                 {/* image */}
                 <div className='lg:w-[456px] xl:w-[546px] 2xl:w-[640px] shrink-0 px-3'>
-                    <img src="./imgs/about-house-bg.png" alt="about-house"/>
+                    <img src={`${process.env.PUBLIC_URL}/imgs/about-house-bg.png`} alt="about-house"/>
                 </div>
                 {/* content */}
                 <div className='pr-[30px] mt-8 lg:max-w-[606px]'>

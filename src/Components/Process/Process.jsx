@@ -47,7 +47,7 @@ function Process() {
                   />
                </div>
                <div className="px-3 w-full lg:w-auto">
-                  <img src="./imgs/process-img.png" alt="process-img" />
+                  <img src={`${process.env.PUBLIC_URL}/imgs/process-img.png`} alt="process-img" />
                </div>
             </div>
          </div>
