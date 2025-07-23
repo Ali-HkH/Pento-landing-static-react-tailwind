@@ -1,5 +1,3 @@
-import React from "react";
-
 function Loader() {
    return (
       <div className="relative h-screen w-screen bg-gradient-to-br from-slate-300 to-slate-100">

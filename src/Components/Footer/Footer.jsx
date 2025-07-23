@@ -1,6 +1,7 @@
-import React from "react";
-import PaymentCard from "../PaymentCard/PaymentCard";
-import FooterList from "../FooterList/FooterList";
+import PaymentCard from "./PaymentCard";
+import FooterList from "./FooterList";
+import FooterListItem from "./FooterListItem";
+import FooterIcons from "./FooterIcons";
 
 function Footer() {
    return (
@@ -9,130 +10,44 @@ function Footer() {
             <div className="w-full flex flex-wrap lg:flex-nowrap justify-between">
                <div className="mb-6 sm:max-w-[280px] 2xl:max-w-[350px] pl-5">
                   <div className="w-[180px] aspect-auto mb-8">
-                     <img src={`${process.env.PUBLIC_URL}/imgs/logo-white.png`} alt="logo" />
+                     <img
+                        src={`${process.env.PUBLIC_URL}/imgs/logo-white.png`}
+                        alt="logo"
+                     />
                   </div>
                   <p className="mb-5">
                      لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد و
                      استاندارد صنعت بوده است. لورم ایپسوم استاندارد صنعت است.
                   </p>
                   <div className="flex gap-x-4">
-                     <svg className="text-white bg-emerald-500 hover:text-emerald-500 hover:bg-white size-7 p-1.5 rounded-full hover:-translate-y-1 transition-all cursor-pointer">
-                        <use href="#facebook"></use>
-                     </svg>
-                     <svg className="text-white bg-emerald-500 size-7 p-1.5 rounded-full cursor-pointer hover:text-emerald-500 hover:bg-white hover:-translate-y-1 transition-all">
-                        <use href="#twitter"></use>
-                     </svg>
-                     <svg className="text-white bg-emerald-500 size-7 p-1.5 rounded-full cursor-pointer hover:text-emerald-500 hover:bg-white hover:-translate-y-1 transition-all">
-                        <use href="#linkedin"></use>
-                     </svg>
-                     <svg className="text-white bg-emerald-500 size-7 p-1.5 rounded-full cursor-pointer hover:text-emerald-500 hover:bg-white hover:-translate-y-1 transition-all">
-                        <use href="#instagram"></use>
-                     </svg>
+                     <FooterIcons icon="facebook" />
+                     <FooterIcons icon="twitter" />
+                     <FooterIcons icon="linkedin" />
+                     <FooterIcons icon="instagram" />
                   </div>
                </div>
                <FooterList title="لینک های سریع">
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        درباره ما
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        چک لیست وام مسکن
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        انتخاب شما
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        مخاطب
-                     </span>
-                  </li>
+                  <FooterListItem text="درباره ما" />
+                  <FooterListItem text="چک لیست وام مسکن" />
+                  <FooterListItem text="انتخاب شما" />
+                  <FooterListItem text="مخاطب" />
                </FooterList>
                <FooterList title="شرکت">
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        وبلاگ
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        سوالات متداول
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        محاسبه کننده وام
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        ماشین حساب وام
-                     </span>
-                  </li>
+                  <FooterListItem text="وبلاگ" />
+                  <FooterListItem text="سوالات متداول" />
+                  <FooterListItem text="محاسبه کننده وام" />
+                  <FooterListItem text="ماشین حساب وام" />
                </FooterList>
                <FooterList title="پشتیبانی">
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        تماس با ما
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        حریم خصوصی
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        محاسبه کننده وام
-                     </span>
-                  </li>
-                  <li>
-                     <span className="size-2.5 bg-emerald-500 rounded-full"></span>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        شرایط و ضوابط
-                     </span>
-                  </li>
+                  <FooterListItem text="تماس با ما" />
+                  <FooterListItem text="حریم خصوصی" />
+                  <FooterListItem text="ارزیابی قیمت" />
+                  <FooterListItem text="شرایط و ضوابط" />
                </FooterList>
                <FooterList title="اطلاعات تماس">
-                  <li>
-                     <svg className="size-4 text-emerald-500">
-                        <use href="#phone"></use>
-                     </svg>
-                     <span className="hover:text-emerald-500 cursor-pointer text-ltr">
-                        +989119119192
-                     </span>
-                  </li>
-                  <li>
-                     <svg className="size-4 text-emerald-500">
-                        <use href="#chat-bubble-left"></use>
-                     </svg>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        info@pento.com
-                     </span>
-                  </li>
-                  <li>
-                     <svg className="size-6 text-emerald-500">
-                        <use href="#map-pin"></use>
-                     </svg>
-                     <span className="hover:text-emerald-500 cursor-pointer">
-                        ایران، استان تهران، میدان آزادی
-                     </span>
-                  </li>
+                  <FooterListItem text="+989119119192" />
+                  <FooterListItem text="info@pento.com" />
+                  <FooterListItem text="ایران، استان تهران، میدان آزادی" />
                </FooterList>
             </div>
             <div className="w-full mt-[30px] lg:mt-[70px] py-8 flex flex-col md:flex-row items-center justify-between gap-x-14 border-t border-gray-400/40">
@@ -147,12 +62,24 @@ function Footer() {
                   </span>
                </p>
                <div className="flex gap-x-1.5 lg:gap-x-2.5 mt-2.5">
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/visa.jpg`}/>
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/master-card.jpg`} />
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/paypal.jpg`}/>
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/skrill.jpg`}/>
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/master-card2.jpg`}/> 
-                  <PaymentCard img={`${process.env.PUBLIC_URL}/imgs/payment/visa2.jpg`}/>
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/visa.jpg`}
+                  />
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/master-card.jpg`}
+                  />
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/paypal.jpg`}
+                  />
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/skrill.jpg`}
+                  />
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/master-card2.jpg`}
+                  />
+                  <PaymentCard
+                     img={`${process.env.PUBLIC_URL}/imgs/payment/visa2.jpg`}
+                  />
                </div>
             </div>
          </div>
