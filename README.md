@@ -11,6 +11,6 @@
 - Has two different themes with theme triger switch
 - Has custom responsive swiper elements
 **************
-### important note:
-The design inspired from pento-landing in [rastchin](https://www.rtl-theme.com/), but I cloned it, in simpler terms I developed it from what I have learned in my own way.
+### note:
+Themplate design form [rastchin](https://www.rtl-theme.com/), but I cloned it, developed it from what I have learned in my own way.
 
