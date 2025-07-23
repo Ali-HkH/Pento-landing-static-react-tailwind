@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pento-landing-static-react-tailwind/static/css/main.4b4c1387.css",
-    "main.js": "/Pento-landing-static-react-tailwind/static/js/main.e5248691.js",
+    "main.css": "/Pento-landing-static-react-tailwind/static/css/main.fff4d9ee.css",
+    "main.js": "/Pento-landing-static-react-tailwind/static/js/main.0caf63ab.js",
     "static/media/process-bg.jpg": "/Pento-landing-static-react-tailwind/static/media/process-bg.4844b58b6a66777ba545.jpg",
     "static/media/home-bg.jpg": "/Pento-landing-static-react-tailwind/static/media/home-bg.6c3699806c13b0464445.jpg",
     "static/media/subscribe-bg.jpg": "/Pento-landing-static-react-tailwind/static/media/subscribe-bg.73d0ffb3762ddeb95482.jpg",
@@ -9,11 +9,11 @@
     "static/media/DanaFaNum-Regular.woff2": "/Pento-landing-static-react-tailwind/static/media/DanaFaNum-Regular.cd89c4bbb5d68d78d5fd.woff2",
     "static/media/DanaFaNum-Medium.woff2": "/Pento-landing-static-react-tailwind/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
     "index.html": "/Pento-landing-static-react-tailwind/index.html",
-    "main.4b4c1387.css.map": "/Pento-landing-static-react-tailwind/static/css/main.4b4c1387.css.map",
-    "main.e5248691.js.map": "/Pento-landing-static-react-tailwind/static/js/main.e5248691.js.map"
+    "main.fff4d9ee.css.map": "/Pento-landing-static-react-tailwind/static/css/main.fff4d9ee.css.map",
+    "main.0caf63ab.js.map": "/Pento-landing-static-react-tailwind/static/js/main.0caf63ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b4c1387.css",
-    "static/js/main.e5248691.js"
+    "static/css/main.fff4d9ee.css",
+    "static/js/main.0caf63ab.js"
   ]
 }
